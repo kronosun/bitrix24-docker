@@ -1,4 +1,4 @@
-! [ Biznet-Bitrix24] (/ docs / assets / bitrix24 - docker - logo . Png )
+! [Bitrix24 Docker] (/docs/assets/bitrix24_logo_r_b.png)
 
 # Bitrix24 Docker: Web-environment 1C-Bitrix24 Corporate Portal
 
