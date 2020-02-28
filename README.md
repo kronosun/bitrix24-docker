@@ -1,4 +1,4 @@
-! [ Bitrix24  Docker ] (/ docs / assets / bitrix24 - docker - logo . Png )
+! [ Biznet-Bitrix24] (/ docs / assets / bitrix24 - docker - logo . Png )
 
 # Bitrix24 Docker: Web-environment 1C-Bitrix24 Corporate Portal
 
@@ -29,6 +29,8 @@ Bitrix24  Docker  provides a  ready-made  virtual  environment ,  optimized  for
 
 Below  is the  configuration  file  `docker-compose.yml`  with  MariaDB connected  , where the launch directory will be mounted on the / local folder inside the container.        
 You can change the version of the database or connect several different databases at the same time, supplementing this file with the appropriate instructions.
+
+
 `` `yml
 version: '3'
 services:
@@ -62,8 +64,10 @@ services:
       MYSQL_PASSWORD : + Tr + ( ) 8 ]! szl [ HQIsoT5
     command : [ '--character-set-server = utf8' ,  '--collation-server = utf8_unicode_ci' ,  '--skip-character-set-client-handshake' ,  '--sql-mode =' ]   
 ```
+
 Bitrix24 Docker includes the initial installation files, so after starting the containers, you will immediately see the installation page for a fresh copy of the portal at http: // localhost. 
 If you are connecting Bitrix24 Docker to an existing project, change the value to `volumes `sections`web `to` . / : / home / bitrix / www ` . 
+
 
 ### Other startup scripts
 
