@@ -31,7 +31,7 @@ Below  is the  configuration  file  `docker-compose.yml`  with  MariaDB connecte
 You can change the version of the database or connect several different databases at the same time, supplementing this file with the appropriate instructions.
 
 
-`` `yml
+```yml
 version: '3'
 services:
   web:
