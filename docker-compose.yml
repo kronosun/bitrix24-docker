@@ -11,7 +11,7 @@ services:
       - seccomp:unconfined
     privileged: true
     volumes:
-      - ./:/home/bitrix/www/local
+      - ./:/home/bitrix/www
     depends_on:
       - mysql
   mysql:
