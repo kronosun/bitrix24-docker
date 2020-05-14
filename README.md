@@ -72,12 +72,12 @@ If you are connecting Bitrix24 Docker to an existing project, change the value t
 ### Other startup scripts
 
 -[ Step-by-step  instructions  for  installing the  portal ] (/ docs / 01 - install - step - by - step . Md )
-- [ How to  connect  phpMyAdmin ] (/ docs / 02 - phpmyadmin - setup . Md )
-- Launch Codeception  tests
+-[ How to  connect  phpMyAdmin ] (/ docs / 02 - phpmyadmin - setup . Md )
+-Launch Codeception  tests
 
 ## Note
 
 This is  an unofficial  build  and is  intended  exclusively  for  local  development .  Do not  use  this  image  in a  production  environment .
 
 ## Deployment
-https://www.lucidchart.com/documents/view/454654ea-8eef-452e-9a62-47c5217b2c57
+[Deployment](https://www.lucidchart.com/documents/view/454654ea-8eef-452e-9a62-47c5217b2c57)
