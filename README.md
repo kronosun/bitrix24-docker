@@ -58,10 +58,10 @@ services:
     ports:
       - " 3306 : 3306"
     environment :
-      MYSQL_ROOT_PASSWORD : + Tr + ( ) 8 ]! szl [ HQIsoT5
+      MYSQL_ROOT_PASSWORD : +Tr+()8]!szl[HQIsoT5
       MYSQL_DATABASE : sitemanager
       MYSQL_USER : bitrix
-      MYSQL_PASSWORD : + Tr + ( ) 8 ]! szl [ HQIsoT5
+      MYSQL_PASSWORD : +Tr+()8]!szl[HQIsoT5
     command : [ '--character-set-server = utf8' ,  '--collation-server = utf8_unicode_ci' ,  '--skip-character-set-client-handshake' ,  '--sql-mode =' ]   
 ```
 
@@ -71,8 +71,8 @@ If you are connecting Bitrix24 Docker to an existing project, change the value t
 
 ### Other startup scripts
 
--[ Step-by-step  instructions  for  installing the  portal ] (/ docs / 01 - install - step - by - step . Md )
--[ How to  connect  phpMyAdmin ] (/ docs / 02 - phpmyadmin - setup . Md )
+-[ Step-by-step  instructions  for  installing the  portal ] (/docs/01-install-step-by-step.Md )
+-[ How to  connect  phpMyAdmin ] (/docs/02-phpmyadmin-setup.Md )
 -Launch Codeception  tests
 
 ## Note
