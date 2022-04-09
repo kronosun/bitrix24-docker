@@ -35,7 +35,7 @@ You can change the version of the database or connect several different database
 version: '3'
 services:
   web:
-    image: "gcr.io/cloud - management - 265600 / biznet - bitrix : latest "
+    image: "gcr.io/cloud-management-265600/biznet-bitrix:latest"
     ports:
       - " 80 : 80 "
       - " 443 : 443 "
@@ -51,7 +51,7 @@ services:
   mysql:
     image: mariadb
     healthcheck:
-      test: " / usr / bin / mysql - user = root - password = + Tr + ( ) 8 ] ! szl [ HQIsoT5 - execute \" SHOW  DATABASES ; \ " "
+      test: "/usr/bin/mysql -user=root -password=+Tr+()8]!szl[HQIsoT5 -execute \"SHOW  DATABASES; \ " "
       interval: 2s
       timeout: 20s
       retries: 10
